@@ -16,7 +16,7 @@ public class LocalizationServiceImp implements LocalizationService{
 
     @Override
     public List<Localization> findAll() {
-        return localizationRepository.findAll();
+        return localizationRepository.findAllOrderByDateDesc();
     }
 
     @Override

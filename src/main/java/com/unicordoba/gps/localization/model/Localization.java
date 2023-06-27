@@ -32,7 +32,7 @@ public class Localization implements Serializable{
     @NotEmpty(message = "Lgh is required")
     private String lgh; 
 
-    private LocalDateTime dateTime = LocalDateTime.now();
+    private LocalDateTime date = LocalDateTime.now();
 
     @ManyToOne(fetch = FetchType.LAZY)
     private Device device;
