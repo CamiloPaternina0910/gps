@@ -16,6 +16,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -31,6 +32,9 @@ public class Device implements Serializable{
 
     @ManyToOne(fetch = FetchType.LAZY)
     private User user;
+
+    @NotEmpty(message = "Name's device is required")
+    private String deviceName;
 
     @ManyToOne(fetch = FetchType.LAZY)
     private TypeDevice type;

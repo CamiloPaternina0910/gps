@@ -1,4 +1,4 @@
-package com.unicordoba.utils;
+package com.unicordoba.gps.utils;
 
 import java.time.LocalDateTime;
 

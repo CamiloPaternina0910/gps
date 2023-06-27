@@ -17,7 +17,7 @@ import com.unicordoba.gps.localization.dto.LocalizationRequest;
 import com.unicordoba.gps.localization.mapper.LocalizationMapper;
 import com.unicordoba.gps.localization.model.Localization;
 import com.unicordoba.gps.localization.service.LocalizationService;
-import com.unicordoba.utils.Response;
+import com.unicordoba.gps.utils.Response;
 
 import jakarta.validation.Valid;
 

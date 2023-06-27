@@ -12,7 +12,7 @@ import com.unicordoba.gps.user.dto.UserRequest;
 import com.unicordoba.gps.user.mapper.UserMapper;
 import com.unicordoba.gps.user.model.User;
 import com.unicordoba.gps.user.service.UserService;
-import com.unicordoba.utils.Response;
+import com.unicordoba.gps.utils.Response;
 
 import jakarta.validation.Valid;
 

@@ -18,5 +18,9 @@ public class TypeDeviceServiceImp implements TypeDeviceService{
     public List<TypeDevice> findAll() {
         return typeDeviceRepository.findAll();
     }
+
+    public TypeDevice findById(Long id){
+        return typeDeviceRepository.findById(id).orElse(null);
+    }
     
 }
