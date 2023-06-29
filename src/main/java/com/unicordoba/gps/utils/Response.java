@@ -15,7 +15,7 @@ public class Response {
 
     private String statusCode;
 
-    private LocalDateTime timestamp;
+    private LocalDateTime timestamp = LocalDateTime.now();
 
     public Response(
         Boolean err,
